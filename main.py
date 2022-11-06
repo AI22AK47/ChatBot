@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 # Getiing bot token from env file
 load_dotenv()
 Bot_Token = os.getenv('Bot_Token')
+CHAT = os.getenv('chat_id')
 
 
 '''
