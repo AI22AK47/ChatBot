@@ -30,7 +30,7 @@ logging.info('Starting Bot...')
 # all update.message are reply from bots to user
 def start(update, context):
     update.message.reply_text(
-        "Good day there, I'm a bot that can communicate with you. You can get the most up-to-date tech news from devto or tldr, and more services will be added shortly..\n To start, say hey, hi, or hello.\n Get all Commands -/cmd")
+        "WELCOME TO OUR BOT TO WORKING TYPE THIS -/cmd")
 
 
 def cmd(update, context):
