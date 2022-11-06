@@ -31,7 +31,7 @@ logging.info('Starting Bot...')
 # all update.message are reply from bots to user
 def start(update, context):
     update.message.reply_text(
-        "WELCOME TO OUR BOT TO WORKING TYPE THIS -/cmd")
+        "CHAT")
 
 
 def cmd(update, context):
