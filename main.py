@@ -35,7 +35,7 @@ def start(update, context):
 
 
 def myid(update, context):
-    update.message.reply_text(CHAT)
+    update.message.reply_text(username)
 
 
 def quote(update, context):
