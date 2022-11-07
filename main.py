@@ -35,7 +35,8 @@ def start(update, context):
 
 
 def myid(update, context):
-    update.message.reply_text(username)
+    data = get_quotr()
+    update.message.reply_text(data)
 
 
 def quote(update, context):
