@@ -34,10 +34,6 @@ def start(update, context):
         "/myid - আপনার টেলিগ্রাম আইডি পান\n/mypp - আপনার টেলিগ্রাম প্রোফাইল ছবি পান\n/myuser - আপনার টেলিগ্রাম উজারনেম পান\n/mylink - আপনার টেলিগ্রাম লিঙ্ক পান")
 
 
-def myid(update, context):
-    update.message.reply_text("data")
-
-
 def quote(update, context):
     data = get_quote()
     update.message.reply_text(data)
