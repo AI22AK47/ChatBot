@@ -31,10 +31,7 @@ logging.info('Starting Bot...')
 # all update.message are reply from bots to user
 def start(update, context):
     update.message.reply_text(
-        "/myid - আপনার টেলিগ্রাম আইডি পান
-/mypp - আপনার টেলিগ্রাম প্রোফাইল ছবি পান
-/myuser - আপনার টেলিগ্রাম উজারনেম পান
-/mylink - আপনার টেলিগ্রাম লিঙ্ক পান")
+        "Hi")
 
 
 def cmd(update, context):
